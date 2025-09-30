@@ -7,8 +7,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
-          color: Color.fromARGB(255, 113, 13, 228)
+        decoration: BoxDecoration(color: Color.fromARGB(255, 113, 13, 228)),
+                child: Column(
+          children: [Image.asset('assets/images/quiz-logo.png')],
         ),
       ),
     );
