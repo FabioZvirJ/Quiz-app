@@ -11,7 +11,8 @@ class QuizApp extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 120, horizontal: 0),
         child: Column(
           children: [
-            Image.asset('assets/images/quiz-logo.png', width: 250),
+            Image.asset('assets/images/quiz-logo.png', width: 250,
+            color: const Color.fromARGB(150, 255, 255, 255),),
             SizedBox(height: 50),
             TextWidget(text: 'Learn Flutter the fun way!'),
             SizedBox(height: 30),
