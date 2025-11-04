@@ -15,7 +15,7 @@ class QuizApp extends StatelessWidget {
             SizedBox(height: 50),
             TextWidget(text: 'Learn Flutter the fun way!'),
             SizedBox(height: 30),
-            OutlinedButton(
+            OutlinedButton.icon(
               onPressed: () {},
               style: OutlinedButton.styleFrom(
                 shape: RoundedRectangleBorder(
@@ -23,7 +23,8 @@ class QuizApp extends StatelessWidget {
                 ),
                 side: BorderSide(color: const Color.fromARGB(38, 0, 0, 0)),
               ),
-              child: Text('Start Quiz', style: TextStyle(color: Colors.white)),
+              icon: Icon(Icons.arrow_right_alt),
+              label: Text('Start Quiz', style: TextStyle(color: Colors.white)),
             ),
           ],
         ),
